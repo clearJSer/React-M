@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Test from './components/Test'
 
-function App() {
+function App(props) {
+  console.log(props,'Hello React~~')
   return (
     <div className="App">
       <header className="App-header">
+        <Test/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
